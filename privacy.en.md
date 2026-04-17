@@ -28,3 +28,5 @@ The User retains the final right of judgment regarding data analysis. However, i
 
 ## 7. Disclaimer
 The Developer shall not be liable for any trouble or disputes that may arise between the User and visitors regarding the operation of this Product.
+
+©2026 Shiimataiyaki
