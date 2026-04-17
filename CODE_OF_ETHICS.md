@@ -1,4 +1,4 @@
-### tech-shrineプロジェクト 倫理規定（Code of Ethics）完全版
+### tech-shrineプロジェクト 倫理規定
 
 ## 第1条（定義）
 
