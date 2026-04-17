@@ -50,3 +50,5 @@ The User retains the final right of judgment regarding the use of the Product an
 ## 8. Consultation
 
 For matters not stipulated in these Terms or any doubts arising regarding the interpretation of these Terms, the Developer and the User shall consult with each other in good faith to reach a resolution.
+
+©2026 Shiimataiyaki
