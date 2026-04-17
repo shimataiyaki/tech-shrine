@@ -72,3 +72,5 @@ flowchart TD
 - 制作者 note：[https://note.com/shimataiyaki](https://note.com/shimataiyaki)
 - 二進数おみくじ 公開URL：[https://shimataiyaki.github.io/binary-omikuji](https://shimataiyaki.github.io/binary-omikuji)
 - デジタル絵馬 公開URL：[https://shimataiyaki.github.io/digital-ema](https://shimataiyaki.github.io/digital-ema)
+
+©2026 Shiimataiyaki
