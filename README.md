@@ -23,7 +23,7 @@
 └── README.md           # 本ファイル
 ```
 
-## 🎌 文化祭当日の全体運用フロー
+## 文化祭当日の全体運用フロー
 
 ```mermaid
 flowchart TD
@@ -68,7 +68,7 @@ flowchart TD
 ## ライセンス
 各プロダクトともに MIT License。
 
-## 🔗 関連リンク
+## 関連リンク
 - 制作者 note：[https://note.com/shimataiyaki](https://note.com/shimataiyaki)
 - 二進数おみくじ 公開URL：[https://shimataiyaki.github.io/binary-omikuji](https://shimataiyaki.github.io/binary-omikuji)
 - デジタル絵馬 公開URL：[https://shimataiyaki.github.io/digital-ema](https://shimataiyaki.github.io/digital-ema)
