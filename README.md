@@ -75,4 +75,4 @@ flowchart TD
 
 Google Apps Script、Google スプレッドシート、Google フォーム、Chromebook、GitHub、およびその他の関連する名称は、それぞれの所有者の商標または登録商標です。本プロジェクトは、これらの企業と提携しておらず、またこれらの企業によって承認、後援、または推奨されているものではありません。
 
-©2026 Shiimataiyaki
+©2026 Shimataiyaki
