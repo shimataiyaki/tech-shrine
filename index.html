@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tech-shrine プロジェクト｜Shimataiyaki</title>
+    <!-- メインサイトの共通CSS/JSを絶対パスで再利用 -->
+    <link rel="stylesheet" href="https://shimataiyaki.github.io/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://shimataiyaki.github.io/script.js" defer></script>
+</head>
+<body>
 
+<!-- ===== 全幅固定ヘッダー ===== -->
+<header class="site-header">
+    <div class="header-container">
+        <a href="https://shimataiyaki.github.io/" class="site-title">Shimataiyaki</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="メニュー">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+            <div class="nav-menu-inner">
+                <!-- ナビゲーションリンク（ポートフォリオ、言語切り替え） -->
+            </div>
+        </ul>
+    </div>
+</header>
+
+<!-- ===== レイアウト：左サイドバー + メインコンテンツ ===== -->
+<div class="layout-wrapper">
+    <!-- 左固定サイドバー（目次） -->
+    <aside class="sidebar-toc">
+        <div class="toc-title">tech-shrine</div>
+        <ul class="toc-nav" id="tocNav">
+            <!-- ページ内リンク（About, Docs, Products, Links） -->
+        </ul>
+    </aside>
+
+    <!-- メインコンテンツ -->
+    <main class="main-content">
+        
+        <!-- 1. プロジェクト概要（About） -->
+        <section id="about">
+            <h1>tech-shrine プロジェクト</h1>
+            <div class="last-updated">最終更新：2026年4月19日</div>
+            <div class="lead">
+                「個人的な好奇心」をエンジンに、「公共の場での運用ルール」をフレームに。
+            </div>
+            <!-- ここにプロジェクトの背景・二層構造を説明するパラグラフ -->
+            <p>...</p>
+            <p>...</p>
+            <ul>
+                <li><strong>エンジン（動機）</strong>：...</li>
+                <li><strong>フレーム（行動）</strong>：...</li>
+            </ul>
+            <p>...</p>
+        </section>
+
+        <!-- 2. ドキュメント一覧 -->
+        <section id="docs">
+            <h2>ドキュメント</h2>
+            <div class="record-list">
+                <!-- 各文書（利用規約、プライバシーポリシー等）を .record-item で列挙 -->
+                <!-- 例： -->
+                <article class="record-item">
+                    <div class="record-header">
+                        <span class="record-title">プロダクト利用規約</span>
+                        <span class="record-meta">B2B契約</span>
+                    </div>
+                    <p>説明文</p>
+                    <a href="terms.html" class="github-link">日本語版</a>
+                    <a href="../en/terms.html" class="github-link">English</a>
+                </article>
+                <!-- ... 以下同様 ... -->
+            </div>
+        </section>
+
+        <!-- 3. プロダクト詳細 -->
+        <section id="products">
+            <h2>プロダクト</h2>
+            <div class="record-list">
+                <article class="record-item">
+                    <div class="record-header">
+                        <span class="record-title">digital-ema</span>
+                        <span class="record-meta">共有型インタラクション</span>
+                    </div>
+                    <p>説明文</p>
+                    <a href="https://github.com/shimataiyaki/digital-ema" class="github-link">GitHub</a>
+                </article>
+                <article class="record-item">
+                    <div class="record-header">
+                        <span class="record-title">binary-omikuji</span>
+                        <span class="record-meta">対話型インタラクション</span>
+                    </div>
+                    <p>説明文</p>
+                    <a href="https://github.com/shimataiyaki/binary-omikuji" class="github-link">GitHub</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- 4. 関連リンク -->
+        <section id="links">
+            <h2>関連リンク</h2>
+            <ul>
+                <li><a href="https://github.com/shimataiyaki/tech-shrine">tech-shrine リポジトリ（GitHub）</a></li>
+                <li><a href="https://shimataiyaki.github.io/">ポートフォリオサイト</a></li>
+            </ul>
+        </section>
+
+        <!-- フッター -->
+        <footer class="main-footer">
+            © 2026 Shimataiyaki
+        </footer>
+    </main>
+</div>
+
+</body>
+</html>
