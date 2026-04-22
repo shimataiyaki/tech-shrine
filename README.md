@@ -24,7 +24,7 @@
 文化祭展示におけるデジタル入力体験の基盤として機能します。
 
 リポジトリ：  
-https://github.com/shimataiyaki/tech-shrine
+https://github.com/shimataiyaki/digital-ema
 
 ---
 
@@ -34,7 +34,7 @@ https://github.com/shimataiyaki/tech-shrine
 展示におけるインタラクティブな抽選体験を担当します。
 
 リポジトリ：  
-https://github.com/shimataiyaki/tech-omikuji
+https://github.com/shimataiyaki/binary-omikuji
 
 ---
 
