@@ -18,23 +18,21 @@
 
 本プロジェクトは以下のアプリケーションから構成されます。
 
-### digital-ema
+### E-MAs｜デジタル絵馬
 
 来場者の入力体験を受け付け、可視化するためのWebアプリケーションです。  
 文化祭展示におけるデジタル入力体験の基盤として機能します。
 
-リポジトリ：  
-https://github.com/shimataiyaki/digital-ema
+リポジトリ：[https://github.com/shimataiyaki/e-mas]
 
 ---
 
-### binary-omikuji
+### E-LOTｓ｜デジタルおみくじ
 
 抽選体験を提供し、紙カードと連動した出力を行うWebアプリケーションです。  
 展示におけるインタラクティブな抽選体験を担当します。
 
-リポジトリ：  
-https://github.com/shimataiyaki/binary-omikuji
+リポジトリ：[https://github.com/shimataiyaki/e-lots]
 
 ---
 
@@ -52,10 +50,8 @@ https://github.com/shimataiyaki/binary-omikuji
 
 ## 関連ドキュメント
 
-- 提供条件（利用範囲・運用方針）
-- データと倫理に関する基本方針（データ取り扱い）
-
----
+- 提供条件（利用範囲・運用方針）[提供条件.md]
+- データと倫理に関する基本方針（データ取り扱い）[データ方針.md]
 
 ## 注意事項
 
