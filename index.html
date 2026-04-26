@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>R8年度文化祭関連ドキュメント</title>
+    <title>R8年度文化祭ドキュメント類</title>
     <meta name="description" content="tech-shrine プロジェクトのドキュメント一覧。提供条件、データ方針、プロジェクト概要。">
     <meta property="og:title" content="tech-shrine ドキュメント">
     <meta property="og:description" content="文化祭展示のために部活動に提供したデジタルソリューションの公式ドキュメントです。">
@@ -115,7 +115,10 @@
             <ul class="nav-menu" id="navMenu">
                 <div class="nav-menu-inner">
                     <li><a href="https://shimataiyaki.github.io/">ポートフォリオ</a></li>
-                    <li><a href="#">tech-shrine ドキュメント</a></li>
+                    <li><hr></li>
+                    <li><a href="#" class="nav-doc-link" data-file="README.md">概要</a></li>
+                    <li><a href="#" class="nav-doc-link" data-file="提供条件.md">提供条件</a></li>
+                    <li><a href="#" class="nav-doc-link" data-file="データ方針.md">データ方針</a></li>
                 </div>
             </ul>
         </div>
@@ -148,6 +151,8 @@
         (function() {
             const tocLinks = document.querySelectorAll('.toc-link');
             const mdContent = document.getElementById('md-content');
+            const navMenu = document.getElementById('navMenu');
+            const menuToggle = document.getElementById('menuToggle');
 
             // マークダウンファイルを読み込んで表示する関数
             function loadMarkdown(file) {
@@ -175,6 +180,27 @@
                     // ファイル読み込み
                     const file = link.getAttribute('data-file');
                     loadMarkdown(file);
+                });
+            });
+
+            // ハンバーガーメニュー内のドキュメントリンクをクリックした時の処理
+            document.querySelectorAll('.nav-doc-link').forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    // 読み込むファイルを取得
+                    const file = link.getAttribute('data-file');
+                    // サイドバーのアクティブ表示を切り替え
+                    tocLinks.forEach(l => {
+                        l.classList.remove('active');
+                        if (l.getAttribute('data-file') === file) {
+                            l.classList.add('active');
+                        }
+                    });
+                    // ファイル読み込み
+                    loadMarkdown(file);
+                    // メニューを閉じる
+                    if (navMenu) navMenu.classList.remove('show');
+                    if (menuToggle) menuToggle.classList.remove('active');
                 });
             });
 
